@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(188, 188, 188); */
+}
+
+html {
+  font-size: 18px;
+  font-family: "Encode Sans", sans-serif;
+  background-color: black;
+  /* width: 100%; */
+}
+
+body {
+  max-width: 1280px;
+  min-height: 100vh;
+  border: 5px dashed red;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.header {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 5px;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-items: flex-end;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  flex: 1 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 8%;
+}
+
+.herottb {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  align-self: center;
+  gap: 20px;
+}
+
+.himage {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.himage img {
+  width: 300px;
+}
+
+.htitle {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hbutton button {
+  margin-top:30px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  text-decoration: none;
+  font-size: 24px;
+  padding:14px 40px;
+  border-radius: 14px;
+  transition-duration: 0.40s;
+  border:1px solid transparent;
+}
+
+.hbutton button:hover{
+background-color: #1f2937;
+border:1px solid #3882f6;
+/* margin:-1px; */
+}
