@@ -36,8 +36,7 @@ body {
   margin-bottom: 30px;
   flex-wrap: wrap;
   justify-items: flex-end;
-  font-size:14px;
- 
+  font-size: 14px;
 }
 
 .logo {
@@ -103,7 +102,7 @@ body {
   /* justify-content:center; */
   /* align-items: center; */
   flex-flow: column wrap;
-  background-color: #e5e7eb;
+  background-color: white;
   color: #1f2937;
   font-size: 14px;
 }
@@ -132,5 +131,22 @@ body {
   height: 100%;
   border-radius: 12px;
   margin-bottom: 10px;
+}
+/* Quote section */
+.quotesection {
+  display:flex;
+  flex-direction:column;
+  padding:80px 250px;
+  background-color: #e5e7eb;
+  color:#1f2937;
+  font-size:36px;
+  font-style:italic;
+  font-weight:100;
+  gap:10px;
+}
 
+.author {
+  align-self:flex-end;
+  font-weight:bold;
+  font-size: 24px;
 }
