@@ -15,7 +15,7 @@ html {
 body {
   max-width: 1280px;
   min-height: 100vh;
-  border: 5px dashed red;
+  /* border: 5px dashed red; */
   background-color: #1f2937;
   color: #e5e7eb;
   margin: auto;
@@ -63,13 +63,15 @@ body {
 }
 
 .himage {
-  display: flex;
-  justify-content: center;
-  flex: 1;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex: 1; */
+  align-self: flex-end;
 }
 
 .himage img {
   width: 300px;
+  
 }
 
 .htitle {
@@ -134,19 +136,58 @@ body {
 }
 /* Quote section */
 .quotesection {
-  display:flex;
-  flex-direction:column;
-  padding:80px 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 250px;
   background-color: #e5e7eb;
-  color:#1f2937;
-  font-size:36px;
-  font-style:italic;
-  font-weight:100;
-  gap:10px;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  gap: 10px;
 }
 
 .author {
-  align-self:flex-end;
-  font-weight:bold;
+  align-self: flex-end;
+  font-weight: bold;
   font-size: 24px;
+}
+/* Call to action section */
+.actionsection {
+  background-color: white;
+  color: #e5e7eb;
+  padding: 80px 200px;
+}
+.action {
+  border-radius: 12px;
+  background-color: #3882f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+  padding: 35px 0;
+}
+.actiontitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.actionbutton button {
+  margin-top: 20px;
+  background-color: #3882f6;
+  border: 1px solid white;
+  color: #f9faf8;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 14px 40px;
+  border-radius: 14px;
+  transition-duration: 0.4s;
+}
+
+.actionbutton button:hover {
+  background-color: #1f2937;
+  border: 1px solid #3882f6;
 }
